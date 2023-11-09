@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book My seat</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="upperThings">
+            <div class="seatSelection">
+                <label for="dropdown">Ticket Type</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="1">Standard</option>
+                    <option value="2">Primium</option>
+                </select>
+            </div>
+            <div class="Quantity">
+                <label for="dropdown">Ticket Qty</label>
+                <select name="dropdown" id="Qty-dropdown">
+                    <option value="qty">Qty</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+        </div>
+            <div class="showcase" id="myshowcse">
+                <h3>Key to Seat Layout:</h3>
+                <ul>
+                    <li>
+                        <div class="seat"></div>
+                        <small>Available</small>
+                    </li>
+                    <li>
+                        <div class="seat selected"></div>
+                        <small>Selected</small>
+                    </li>
+                    <li>
+                        <div class="seat occupied"></div>
+                        <small>Occupied</small>
+                    </li>
+                </ul>
+            </div>
+            <div class="seat-container">
+                <div class="seat-container1">
+                <div class="row">
+                    <li>J</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class=" empity"></div>
+                    <div class=" empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class=" empity"></div>
+                    <div class=" empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class=" empity"></div>
+                    <div class="empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="empity"></div>
+                    <div class=" empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <li>I</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class=" empity"></div>
+                    <div class=" empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class=" empity"></div>
+                    <div class=" empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class=" empity"></div>
+                    <div class="empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="empity"></div>
+                    <div class=" empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <li>H</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="empity"></div>
+                    <div class="empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <li>G</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="empity"></div>
+                    <div class="empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <li>F</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="empity"></div>
+                    <div class="empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <li>E</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="empity"></div>
+                    <div class="empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <li>D</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="empity"></div>
+                    <div class="empity"></div>
+                    
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <li>C</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="empity"></div>
+                    <div class="empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <li>B</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    
+                    <div class="empity"></div>
+                    <div class="empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <li>A</li>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied" ></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="empity"></div>
+                    <div class="empity"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+            </div>
+            <div class="screen">Screen</div>
+            </div>
+            <button class="proceddBtn">PROCEED</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>
